@@ -2,7 +2,7 @@ h1 {
   border-bottom: 1px solid #dddddd
 }
 img{
-  width: 50%;
+  width: 20%;
 }
 body {
   background-color: #DEF9F8;
@@ -12,7 +12,6 @@ body {
 }
 
 .exp-header {
-  text-align: center;
   text-transform: uppercase;
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
