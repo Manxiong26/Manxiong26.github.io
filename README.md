@@ -2,4 +2,4 @@
 
 # My Bio
 
-![](Pictures/GetTask.png)
+![My Bio](Pictures/MyBio.png)
