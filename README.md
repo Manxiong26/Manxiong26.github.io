@@ -2,4 +2,4 @@
 
 # My Bio
 
-![My Bio](Pictures/Maneena.png)
+![My Bio](Pictures/Bio.png)
