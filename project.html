@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Theme Made By www.w3schools.com - No Copyright -->
+    <title>Maneena Xiong's Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            font: 20px Montserrat, sans-serif;
+            line-height: 1.8;
+            color: #f5f6f7;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .margin {
+            margin-bottom: 45px;
+            font-style: bold;
+        }
+
+        .bg-1 {
+            background-image: url(https://www.exploringnorthshore.com/wp-content/uploads/2019/11/Northern-Lights-01-1-e1576007999194.jpg);
+            background-image: fixed;
+            background-repeat: no-repeat;
+            background-color: #1a5bbc;
+            /* blue */
+            color: #ffffff;
+        }
+
+        .bg-2 {
+            background-color: #474e5d;
+            /* Dark Blue */
+            color: #ffffff;
+        }
+
+        .bg-3 {
+            background-color: #ffffff;
+            /* White */
+            color: #555555;
+        }
+
+        .bg-4 {
+            background-color: #2f2f2f;
+            /* Black Gray */
+            color: #fff;
+        }
+
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
+
+        .navbar-nav li a:hover {
+            color: #1abc9c !important;
+        }
+
+        .email {
+            color: #2f2f2f;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <p class="email">xiong.maneena@gmail.com</p>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="https://github.com/Manxiong26">GitHub</a></li>
+                    <li><a
+                            href="https://www.linkedin.com/in/maneena-xiong-9a3227171?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlofNV0szT1ewDl9gmNALgg%3D%3D">LinkedIn</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- First Container -->
+    <div class="container-fluid bg-1 text-center">
+        <img src="Pictures/MyPic.jpg" class="img-responsive img-circle margin" style="display:inline" alt="me"
+            width="350" height="350">
+        <h1>Previous Projects</h1>
+    </div>
+
+
+    <!-- Third Container (Grid) -->
+    <div class="container-fluid bg-3 text-center">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>DoThis</h2>
+                <p>This web app is created for Minnesotan users who love to do activities on the weekend
+                    or want to do activities on the weekend but is unsure on what to do. With this app,
+                    random task will generate for users to do on the that day. There are reject and accept
+                    buttons for users to either accept and the task gets added on to their task list or reject
+                    the task to get a new task.</p>
+                <img src="Pictures/Login.png" class="img-responsive margin" style="width:100%" alt="Image">
+                <img src="Pictures/GetTask.png" class="img-responsive margin" style="width:100%" alt="Image">
+                <img src="Pictures/TaskList.png" class="img-responsive margin" style="width:100%" alt="Image">
+                <img src="Pictures/EditPage.png" class="img-responsive margin" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-4">
+                <h2>Weekend-Movie-Saga</h2>
+                <p>An web app that shows a list of movies with titles and a poster of the movie.
+                    When the picture is clicked it will show the detail of the movie with it's genre.
+                    Users can also add new movies to the list when click on the add movie button.
+                    When you click cancel it will take you back to the home page.</p>
+                <img src="Pictures/MovieSaga.png" class="img-responsive margin" style="width:100%" alt="Image">
+                <img src="Pictures/MovieList.png" class="img-responsive margin" style="width:100%" alt="Image">
+                <img src="Pictures/MovieDetail.png" class="img-responsive margin" style="width:100%" alt="Image">
+                <img src="Pictures/AddMovie.png" class="img-responsive margin" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-4">
+                <h2>To-Do List</h2>
+                <p>Created an app where you can write a list of things you need to do and check off the tasks as you
+                    are done and when delete a task when you dont need it anymore. It will turn a lighter shade of blue
+                    with a cross over it when you click the complete button. You are also able to click incomplete if
+                    you
+                    accidentally clicked complete and it will come back as incomplete task.</p>
+                <img src="Pictures/ToDo.png" class="img-responsive margin" style="width:100%" alt="Image">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+        <p>Maneena Xiong</p>
+    </footer>
+
+</body>
+
+</html>
