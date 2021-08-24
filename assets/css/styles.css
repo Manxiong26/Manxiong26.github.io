@@ -226,10 +226,16 @@ img{
 }
 
 /* Dark/ Light icon */
-.dark-icon{
-  width: max-content;
-  font-size: 1.5rem;
-  color: var(--second-color);
+.dark-icon:hover{
+
+  border:2px solid #fff;
+  background: url(img/duck.png) no-repeat;
+  -moz-box-shadow: 0px 6px 5px #ccc;
+  -webkit-box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 6px 5px #ccc;
+  -moz-border-radius:190px;
+  -webkit-border-radius:190px;
+  border-radius:190px;
 }
 
 /*BUTTONS*/
