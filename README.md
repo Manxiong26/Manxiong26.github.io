@@ -2,4 +2,4 @@
 
 # My Bio
 
-![My Bio](Pictures/Bio.png)
+![My Bio](assets/img/PortfolioPic.png)
